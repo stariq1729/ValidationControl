@@ -50,8 +50,8 @@
             display: flex;
             justify-content: center; /* horizontal center */
             align-items: center; /* vertical center */
-            min-height: 100vh; /* full screen height */
-            margin: 0;
+            min-height: 80vh; /* full screen height */
+            margin: auto;
             border: 2px solid black; 
         }
 
