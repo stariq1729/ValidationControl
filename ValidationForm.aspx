@@ -50,16 +50,21 @@
             display: flex;
             justify-content: center; /* horizontal center */
             align-items: center; /* vertical center */
-            min-height: 80vh; /* full screen height */
+            min-height: 60vh;  
             margin: auto;
             border: 2px solid black; 
         }
 
+        .auto-style15 {
+            height: 376px;
+            width: 1021px;
+        }
+
     </style>
 </head>
-<body class="auto-body" style="height: 281px; width: 1210px; margin-right: 36px; ">
+<body class="auto-body" style="height: 388px; width: 1210px; margin-right: 36px; ">
     <form id="form1" runat="server">
-            <h2 style="height: 376px; width: 1021px;">STUDENT REGISTRATION FORM
+            <h2 style="justify-content: center; align-items: center;" class="auto-style15">STUDENT REGISTRATION FORM
                 <table class="auto-style1">
                     <tr>
                         <td class="auto-style3" colspan="2">
